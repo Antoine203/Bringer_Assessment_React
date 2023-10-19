@@ -20,7 +20,7 @@ export default function LoginView(){
             setPasswordError(true)
         }
         if (login.length > 0 && password.length > 0){
-            axios.post('http://localhost:3000/Generate_Token', {
+            axios.post('http://localhost:3001/Generate_Token', {
             login, password
             })
             .then(response => {

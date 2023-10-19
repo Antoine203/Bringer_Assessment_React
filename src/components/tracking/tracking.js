@@ -20,14 +20,14 @@ export default function TrackingView(){
         // Make a request to Tracking_parcel endpoint
 
         // handleGetRequest()
-        axios.get(`http://localhost:3000/Tracking_parcel?tracking_number=${trackingNumber}`)
+        axios.get(`http://localhost:3001/Tracking_parcel?tracking_number=${trackingNumber}`)
             .then(response =>setTrackingData(response.data))
             .catch(error => console.log(error))
     }, [])
 
     function handleGetRequest(){
 
-        axios.get(`http://localhost:3000/Tracking_parcel?tracking_number=${trackingNumber}`)
+        axios.get(`http://localhost:3001/Tracking_parcel?tracking_number=${trackingNumber}`)
             .then(response =>{
                 setTrackingData(response.data)
                 console.log("REsponse Data: ",response.data)
