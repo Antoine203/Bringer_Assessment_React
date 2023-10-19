@@ -16,8 +16,13 @@ export default function LoginView(){
         if (login.length == 0){
             setLoginError(true)
         }
+        else{
+            setLoginError(false)
+        }
         if (password.length == 0){
             setPasswordError(true)
+        }else{
+            setPasswordError(false)
         }
         if (login.length > 0 && password.length > 0){
             axios.post('http://localhost:3001/Generate_Token', {
