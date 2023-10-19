@@ -13,6 +13,10 @@ pnpm dev
 # or
 bun dev
 ```
+## Project Requirements
+### Build 2 views in REACT and NODE.JS
+#### a -  Tracking_view : To consumes and displays the tracking events returned by an API Tracking_parcel formatted as in this sample view (https://bringerparcel.com/tracking/BPS1EP58YI5SKBR )
+#### b -  Login_view: To show a form with Login and password fields and after submit the data to the Generate_Token endpoint, show the generated JWT token on the view.
 
 ## Installations
 
