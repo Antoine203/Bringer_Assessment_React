@@ -1,0 +1,151 @@
+.tracking_container{
+    background-color: #959997;
+    height: 1500px;
+    width: 100%;
+    position: relative;
+}
+.tracking_details_container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2.5%;
+}
+.tracking_details{
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5%;
+    padding: 2%;
+    position: relative;
+}
+.tracking_button{
+    color: #298CC5;
+    border: 1px solid #298CC5;
+    border-radius: 8px;
+    padding: 1%;
+    position: absolute;
+    left: 0;
+}
+.tracking_button_2{
+    color: #298CC5;
+    border: 1px solid #298CC5;
+    border-radius: 8px;
+    padding: 1%;
+    position: absolute;
+    right: 0;
+}
+.title{
+    color: #000;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+.description{
+    color: rgba(000,000,000,0.4);
+    font-size: 12px;
+    margin-bottom: 3%;
+}
+.input{
+    display:inline-flex;
+    justify-content: center;
+    color: #000;
+    border-bottom: 1px solid rgba(000,000,000,0.4);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.search_button, .map_button{
+    border: 1px solid #298CC5;
+    border-radius: 8px;
+    color: #298CC5;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search_button{ 
+    padding: 1%;
+}
+.map_button{
+    width: 100%;
+    padding: 1%;
+}
+.order_details{
+    width: 100%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+.orderDetails_container{
+    margin-top: 5%;
+}
+.time_container{
+    /* margin-right: 5%; */
+}
+.date_title{
+    font-size: 13px;
+    color: rgba(000,000,000,0.8);
+    text-align: right;
+}
+.date_time{
+    font-size: 10px;
+    color:rgba(000,000,000,0.4);
+    text-align: right;
+}
+.sub_title{
+    font-size: 15px;
+    color:rgba(000,000,000,0.8);
+    text-align: left;
+}
+.sub_title_country{
+    font-size: 12px;
+    color: rgba(000,000,000,0.5);
+    text-align: left;
+}
+.image{
+    height: 25px;
+    width: 25px;
+}
+.line{
+    border-right: 1px solid rgba(000,000,000,0.5);
+    height: 60%;
+    margin-right: 50%;
+}
+.input:hover{
+    border-bottom: 2px solid rgba(000,000,000,1);
+}
+.input:focus{
+    outline: none;
+}
+.search_button:hover, .tracking_button:hover, .tracking_button_2:hover{
+    opacity: 0.5;
+}
+
+@media only screen and (max-width: 1369px){
+    .tracking_details_container{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .tracking_details_container{
+        width: 80%;
+    }
+    .time_container{
+        
+    }
+}
+@media only screen and (max-width: 800px){
+    .tracking_details_container{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .tracking_details_container{
+        width: 98%;
+    }
+    .sub_title{
+        resize: vertical;
+    }
+}

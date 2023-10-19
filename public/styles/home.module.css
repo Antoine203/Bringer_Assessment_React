@@ -1,0 +1,17 @@
+.container{
+    background-color: #959997;
+    height: 950px;
+    width: 100%;
+    position: relative;
+}
+.context{
+    padding-top: 20%;
+}
+.button{
+    border: 1px solid #fff;
+    padding: 1%;
+    border-radius: 8px;
+}
+.button:hover{
+    opacity: 0.5;
+}
